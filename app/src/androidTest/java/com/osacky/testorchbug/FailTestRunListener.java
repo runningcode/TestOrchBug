@@ -1,11 +1,11 @@
 package com.osacky.testorchbug;
 
-import static android.support.test.InstrumentationRegistry.getInstrumentation;
-import static android.support.test.internal.runner.listener.InstrumentationResultPrinter.REPORT_VALUE_RESULT_FAILURE;
+import static androidx.test.InstrumentationRegistry.getInstrumentation;
+import static androidx.test.internal.runner.listener.InstrumentationResultPrinter.REPORT_VALUE_RESULT_FAILURE;
 
 import android.app.Instrumentation;
 import android.os.Bundle;
-import android.support.test.internal.runner.listener.InstrumentationResultPrinter;
+import androidx.test.internal.runner.listener.InstrumentationResultPrinter;
 import org.junit.runner.Description;
 import org.junit.runner.notification.RunListener;
 
